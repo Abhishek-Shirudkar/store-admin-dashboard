@@ -2,6 +2,12 @@
 
 A full-stack admin dashboard for a small online store: sign in, see sales stats and charts, and manage products with search, sorting, filtering, pagination and full create / edit / delete.
 
+**Live demo:** https://store-admin-dashboard-five.vercel.app (the login is prefilled; the API sleeps when idle, so the first sign-in can take about 30 seconds)
+
+![Overview page](docs/overview.png)
+
+![Products page](docs/products.png)
+
 **Stack:** React 18 + Vite + Recharts on the front end, Node.js + Express + JWT on the back end. Data is held in memory and re-seeded on every server start, so there is nothing to configure.
 
 ## Features
